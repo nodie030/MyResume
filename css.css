@@ -1,0 +1,589 @@
+ header {
+   position: fixed;
+   z-index: 5;
+   color: white;
+   background-color: #716a5c;
+   text-align: center;
+   height: 85px;
+   width: 100%;
+   top: -10px;
+   left: -1px;
+ }
+
+ h1 {
+   float: left;
+   margin-left: 50px;
+ }
+
+ ul {
+   list-style-type: none;
+   text-align: center;
+   font-size: 30px;
+ }
+
+ li {
+   float: right;
+   margin-right: 20px;
+ }
+
+ a {
+   display: block;
+   text-decoration: none;
+   color: #fff;
+ }
+
+ /* 聯繫欄 */
+ aside {
+   position: fixed;
+   left: 96%;
+   z-index: 999;
+   top: 200px;
+ }
+
+ /* 簡介 */
+ #s1 {
+   margin: 90px 80px 10px 80px;
+   height: 501px;
+   background-color: #7b7364;
+   border-radius: 30px;
+ }
+
+ .saying {
+   font-size: 65px;
+   color: #fff;
+   text-align: center;
+   margin: 0px;
+   animation-duration: 1s;
+   animation-name: blink;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-timing-function: ease-in-out;
+ }
+
+ .sf {
+   display: flex;
+   margin-top: 0px;
+ }
+
+ .sfint {
+   display: flex;
+   float: left;
+   padding-top: 80px;
+   margin-left: 100px;
+ }
+
+ #hdpt {
+   border-radius: 50%;
+   padding-right: 80px;
+ }
+
+ .intro {
+   width: 400px;
+   color: rgb(221, 221, 221);
+   padding-left: 50px;
+   float: left;
+ }
+
+ #name {
+   font-size: 30px;
+ }
+
+ #intword {
+   font-size: 18px;
+ }
+
+ .hashtag {
+   font-size: 15px;
+   color: #5f4b3e;
+   font-weight: bolder;
+   background-color: #b6b0a5;
+   border: unset;
+   border-radius: 8px;
+   padding: 4px 8px 4px 8px;
+ }
+
+ /* 進度條 */
+ .skill {
+   width: 800px;
+   height: 360px;
+   border-radius: 50px 50px 50px 50px;
+   float: right;
+ }
+
+ ul {
+   list-style: none;
+ }
+
+ .box {
+   display: flex;
+   justify-content: left;
+   padding: 0px 0px 0px 130px;
+
+ }
+
+ .skillname {
+   width: 180px;
+   height: 30px;
+   left: 50px;
+   font-size: 22px;
+   color: lightgrey;
+ }
+
+ .loading {
+   background-color: #dbccc1;
+   width: 280px;
+   height: 30px;
+   box-sizing: border-box;
+   border-radius: 10px;
+   border: #beb6b0 3px solid;
+   overflow: hidden;
+   position: relative;
+   left: 110px;
+ }
+
+ #sk1 {
+   height: 24px;
+   width: 70%;
+   background-color: #5f4b3e;
+   animation: ski1 5s ease;
+   animation-iteration-count: infinite;
+ }
+
+ #sk2 {
+   height: 24px;
+   width: 85%;
+   background-color: #5f4b3e;
+   animation: ski2 5s ease;
+   animation-iteration-count: infinite;
+ }
+
+ #sk3 {
+   height: 24px;
+   width: 72%;
+   background-color: #5f4b3e;
+   animation: ski3 5s ease;
+   animation-iteration-count: infinite;
+ }
+
+ #sk4 {
+   height: 24px;
+   width: 86%;
+   background-color: #5f4b3e;
+   animation: ski4 5s ease;
+   animation-iteration-count: infinite;
+ }
+
+ #sk5 {
+   height: 24px;
+   width: 95%;
+   background-color: #5f4b3e;
+   animation: ski5 5s ease;
+   animation-iteration-count: infinite;
+ }
+
+ #sk6 {
+   height: 24px;
+   width: 70%;
+   background-color: #5f4b3e;
+   animation: ski6 5s ease;
+   animation-iteration-count: infinite;
+ }
+
+ @keyframes ski1 {
+   0% {
+     width: 0;
+   }
+
+   100% {
+     width: 70%;
+   }
+ }
+
+ @keyframes ski2 {
+   0% {
+     width: 0;
+   }
+
+   100% {
+     width: 85%;
+   }
+ }
+
+ @keyframes ski3 {
+   0% {
+     width: 0;
+   }
+
+   100% {
+     width: 72%;
+   }
+ }
+
+ @keyframes ski4 {
+   0% {
+     width: 0;
+   }
+
+   100% {
+     width: 86%;
+   }
+ }
+
+ @keyframes ski5 {
+   0% {
+     width: 0;
+   }
+
+   100% {
+     width: 95%;
+   }
+ }
+
+ @keyframes ski6 {
+   0% {
+     width: 0;
+   }
+
+   100% {
+     width: 70%;
+   }
+ }
+
+ .line {
+   font-size: 40px;
+   letter-spacing: 30px;
+   color: #FFFAFA;
+   text-align: center;
+ }
+
+ /* 技能 */
+ .Skill1 {
+   margin: 10px 80px 10px 80px;
+   height: 330px;
+   background-color: #B6A691;
+   display: block;
+   border-radius: 30px;
+ }
+
+ .title {
+   padding-left: 20px;
+   font-size: 45px;
+   color: #EDF4ED;
+   font-weight: bolder;
+ }
+
+
+ .title p {
+   animation-duration: 1s;
+   animation-name: blink;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-timing-function: ease-in-out;
+ }
+
+ @keyframes blink {
+   from {
+     opacity: 1;
+   }
+
+   to {
+     opacity: 0;
+   }
+ }
+
+ .skill-box {
+   width: 100%;
+   border-radius: 5px;
+   position: absolute;
+   max-width: 1000px;
+   margin-top: 0px;
+   margin-right: 5%;
+   margin-left: 5%;
+   margin-bottom: 0px;
+ }
+
+ .skill-box>h3 {
+   margin-bottom: 15px;
+   color: #A7895D;
+ }
+
+ .skill-box>.skills-circle>ul {
+   padding: 0;
+   text-align: center;
+   list-style-type: none;
+ }
+
+ .skill-box>.skills-circle>ul>li {
+   width: 150px;
+   height: 150px;
+   background-color: #ddd;
+   border-radius: 50%;
+   position: relative;
+   display: inline-block;
+   overflow: hidden;
+   margin: 10px;
+ }
+
+ .skill-box>.skills-circle>ul>li>span {
+   color: #A7895D;
+ }
+
+ .skill-box>.skills-circle>ul>li>span.text,
+ .skill-box>.skills-circle>ul>li>span~b {
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   margin-top: -8px;
+   z-index: 1;
+ }
+
+ .skill-box>.skills-circle>ul>li>span.text~b,
+ .skill-box>.skills-circle>ul>li>span~b~b {
+   font-weight: normal;
+   margin-top: 15px;
+ }
+
+ .skill-box>.skills-circle>ul>li>span.bar-circle-right,
+ .skill-box>.skills-circle>ul>li>span.bar-circle-left {
+   border-radius: 50%;
+   position: absolute;
+   display: block;
+   width: 100%;
+   height: 100%;
+   background: #A7895D;
+   clip: rect(0, 75px, 150px, 0);
+ }
+
+ .skill-box>.skills-circle>ul>li>span.bar-circle-left {
+   background: #ddd;
+ }
+
+ .skill-box>.skills-circle>ul>li>span.bar-circle-cover {
+   display: block;
+   width: 95%;
+   height: 95%;
+   border-radius: 50%;
+   background-color: #eee;
+   z-index: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+
+ /* 經歷 */
+ .s2 {
+   margin: 10px 80px 30px 80px;
+   height: 3100px;
+   background-color: #7b7364;
+   border-radius: 30px;
+ }
+
+ h2 {
+   color: #dbccc1;
+   font-size: 50px;
+   text-align: center;
+   font-weight: bolder;
+   margin-bottom: 60px;
+   animation-duration: 1s;
+   animation-name: blink;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-timing-function: ease-in-out;
+ }
+
+ table {
+   margin-left: 25%;
+ }
+
+ .s2 img {
+   width: 400px;
+   box-shadow: 5px 5px 10px #4F4A40;
+   border-radius: 5px;
+ }
+
+ .pic1 {
+   transition: 0.5s;
+   position: relative;
+   z-index: 2;
+ }
+
+ .pic1:hover {
+   transform: scale(1.2);
+ }
+
+ .pic2 {
+   transition: 0.5s;
+   position: relative;
+   top: -250px;
+   left: 60px;
+   z-index: 1;
+ }
+
+ .pic2:hover {
+   z-index: 2;
+   transform: scale(1.2);
+ }
+
+ .word {
+   font-size: 30px;
+   color: #EDF4ED;
+   position: relative;
+   left: 100px;
+   top: -80px;
+ }
+
+ .word span {
+   font-size: 43px;
+   font-weight: bold;
+   color: #282f85;
+   transition: 1.8s;
+ }
+
+ /* 未來期許 */
+ .wrap {
+   margin: 0px auto 0px auto;
+   width: 1200px;
+   height: 400px;
+   background-color: #dbccc1;
+   display: block;
+   border-radius: 30px;
+ }
+
+ .ins p {
+   color: #4F4A40;
+   text-align: left;
+ }
+
+ .uu li {
+   width: 30%;
+
+   position: relative;
+   top: 48px;
+   left: -50px;
+ }
+
+ .ins {
+   display: block;
+   height: 300px;
+   background-color: #B6B0A5;
+   border: 1px solid #aaa;
+   box-sizing: border-box;
+   border-radius: 10px;
+   box-shadow: 3px 3px 5px #888;
+   font-family: 'HanyiSentyDiary';
+   font-size: 23px;
+ }
+
+ .ins:hover {
+   transform: scale(1.08);
+   background-color: #4F4A40;
+ }
+
+ .ins:hover h3,
+ .ins:hover p {
+   color: #EDF4ED;
+ }
+
+ h3 {
+   color: #dbccc1;
+   font-size: 40px;
+   text-align: center;
+   font-weight: bolder;
+ }
+
+ /* 生活 */
+ .s3 {
+   width: 66%;
+   margin: auto
+ }
+
+ .lifepic {
+   margin: 0px auto;
+   display: flex;
+ }
+
+ .llp {
+   float: left;
+ }
+
+ .lp1 {
+   width: 400px;
+   /* height: 610px; */
+   float: left;
+   margin-right: 20px;
+ }
+
+ #lp11 {
+   margin: 0px 0px 20px 0px;
+ }
+
+ #lp12 {
+   margin: 0px 6px 0px 0px;
+ }
+
+ #lp13 {
+   margin: 0px 0px 0px 10px;
+ }
+
+ .lp2 {
+   width: 400px;
+   /* height: 410px; */
+   float: right;
+ }
+
+ #lp21 {
+   margin: 0px 16px 20px 0px;
+ }
+
+ #lp22 {
+   margin: 0px 0px 20px 0px;
+ }
+
+ #lp23 {
+   margin: 0px 20px 0px 0px;
+ }
+
+ .lp3 {
+   width: 400px;
+   /* height: 410px; */
+   float: right;
+   margin-left: 20px;
+ }
+
+
+ /* footer */
+ footer {
+   width: 100%;
+   height: 110px;
+   background: #B6A691;
+ }
+
+ .fimg1 {
+   position: relative;
+   left: -12px;
+ }
+
+ .fimg2 {
+   position: relative;
+   left: 12px;
+   top: -26px;
+ }
+
+ .fsp {
+   position: relative;
+   top: -26px;
+ }
+
+ /* 回上頁 */
+ .ttop {
+   position: fixed;
+   left: 93%;
+   z-index: 999;
+   top: 750px;
+ }
+
+ .ttop img {
+   width: 50px;
+ }
